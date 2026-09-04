@@ -1,0 +1,69 @@
+# --> check the R programs in tutorials
+- tutorials/tutorial_01_variable_workout/variables.R:
+  - description: Ensure that the variables.R file exists in tutorial_01
+    check: ConfirmFileExists
+  - description: Complete all TODOs, remove the TODO markers in variables.R
+    check: MatchFileFragment
+    options:
+      fragment: TODO
+      count: 0
+      exact: true
+
+- tutorials/tutorial_02_event_data/events.R:
+  - description: Ensure that the events.R file exists in tutorial_02
+    check: ConfirmFileExists
+  - description: Complete all TODOs, remove the TODO markers in events.R
+    check: MatchFileFragment
+    options:
+      fragment: TODO
+      count: 0
+      exact: true
+
+- tutorials/tutorial_03_randomness/randomness.R:
+  - description: Ensure that the randomness.R file exists in tutorial_03
+    check: ConfirmFileExists
+  - description: Complete all TODOs, remove the TODO markers in randomness.R
+    check: MatchFileFragment
+    options:
+      fragment: TODO
+      count: 0
+      exact: true
+
+- writing/reflection.md:
+  - description: Ensure that reflection.md file exists in the writing/ directory
+    check: ConfirmFileExists
+  - description: Complete all TODOs, remove the TODO markers in reflection.md
+    check: MatchFileFragment
+    options:
+      fragment: TODO
+      count: 0
+      exact: true
+  - description: Write your name and then remove the 'Add Your Name Here' prompt in the reflection file
+    check: MatchFileFragment
+    options:
+      fragment: "Add Your Name Here"
+      count: 0
+      exact: true
+
+# --> check README files exist
+- tutorials/tutorial_01_variable_workout/README.md:
+  - description: Ensure that README.md exists in tutorial_01
+    check: ConfirmFileExists
+
+- tutorials/tutorial_02_event_data/README.md:
+  - description: Ensure that README.md exists in tutorial_02
+    check: ConfirmFileExists
+
+- tutorials/tutorial_03_randomness/README.md:
+  - description: Ensure that README.md exists in tutorial_03
+    check: ConfirmFileExists
+
+- tutorials/tutorial_03_randomness/app.R:
+  - description: Ensure that app.R exists in tutorial_03
+    check: ConfirmFileExists
+
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum number of commits (3) in repository
+  check: CountCommits
+  options:
+    count: 3
