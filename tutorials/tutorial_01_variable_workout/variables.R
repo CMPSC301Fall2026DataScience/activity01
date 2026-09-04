@@ -1,5 +1,5 @@
 # CMPSC301: Data Science
-# Activity 02: Variable Workout
+# Activity 01: Variable Workout
 #
 # Run this file from this directory with:
 # Rscript variables.R

@@ -1,5 +1,5 @@
 # CMPSC301: Data Science
-# Activity 02: Can You Beat Randomness?
+# Activity 01: Can You Beat Randomness?
 #
 # Run this file from this directory with:
 # Rscript randomness.R

@@ -10,7 +10,7 @@ This tutorial uses simulation to investigate a question that can feel suspicious
    cd tutorials/tutorial_03_randomness
    ```
 
-2. Run the simulation script:
+2. Run the simulation with Rstudio or by using the following script:
 
    ```bash
    Rscript randomness.R

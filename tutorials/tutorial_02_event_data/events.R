@@ -1,5 +1,5 @@
 # CMPSC301: Data Science
-# Activity 02: Campus Event Data Challenge
+# Activity 01: Campus Event Data Challenge
 #
 # Run this file from this directory with:
 # Rscript events.R

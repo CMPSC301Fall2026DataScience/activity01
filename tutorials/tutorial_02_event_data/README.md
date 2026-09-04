@@ -10,7 +10,8 @@ This tutorial uses a small fictional dataset to practice R vectors, summary func
    cd tutorials/tutorial_02_event_data
    ```
 
-2. Run the program:
+2. Run the code with Rstudio or by using the following script:
+
 
    ```bash
    Rscript events.R
