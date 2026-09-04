@@ -14,6 +14,9 @@ Note: There is no class on Monday, 7th September thanks to Labor day!!
 
 Note: the expiration date is the last date you can submit your work for a grade.
 
+<img src=graphics/dice.png alt="Dice" style="display: block; margin: 0 auto;">
+
+
 ## Table of contents
 
 - [CMPSC301: Data Science](#cmpsc301-data-science)
@@ -38,6 +41,8 @@ You are to complete and push to your repository the following files:
 - `tutorials/tutorial_02_event_data/events.R` - Completed R source code
 - `tutorials/tutorial_03_randomness/randomness.R` - Completed R simulation code
 - `writing/reflection.md` - Reflection document with answers to all questions
+
+![--- --- --- --- --- --- --- --- ---](graphics/div_bar.png)
 
 ## Project Goals
 
