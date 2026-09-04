@@ -25,7 +25,12 @@ jobs:
           Rscript tutorials/tutorial_03_randomness/randomness.R
           Rscript -e 'parse(file = "tutorials/tutorial_03_randomness/app.R")'
       - name: Run GatorGrader with GatorGrade
-        run: |
-          pipx install gatorgrade
-          pipx inject gatorgrade 'click==8.1.7' --force
+        if: always()
+        run:  |
+          pip install gatorgrade
           gatorgrade --config config/gatorgrade.yml
+
+
+
+
+
