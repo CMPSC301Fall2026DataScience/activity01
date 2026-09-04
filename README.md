@@ -6,7 +6,7 @@ Activity 01: R Foundations and Randomness
 
 - **Assigned**: Friday, 4th September 2026
 
-- **Due and Expiration**: Wednesday, 9th September 2026 by classtime. 
+- **Due and Expiration**: Wednesday, 9th September 2026 by classtime.
 
 Note: There is no class on Monday, 7th September thanks to Labor day!!
 
